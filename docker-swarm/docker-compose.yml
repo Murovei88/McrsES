@@ -58,7 +58,7 @@ services:
     container_name: redis
     command: 
       - redis-server
-      - --requirepass "NewCif6694"
+      - --requirepass "ЗДЕСЬ_БЫЛ_ПАРОЛЬ"
       - --maxmemory
       - 256mb
       - --maxmemory-policy
